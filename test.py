@@ -145,8 +145,8 @@ def GT_test_single( model, process_data_root , test_vid_root, input_step, scale 
 
 
 parser = argparse.ArgumentParser(description="optional args for MS-STAN")
-parser.add_argument('-GTDir', type=str, default="/home/zyh/experiment/result/test/GT/" , help='GT directory') 
-parser.add_argument('-SRDir', type=str, default="/home/zyh/experiment/result/test/demo_test/" , help='SR directory') 
+parser.add_argument('-GTDir', type=str, default="/path/to/GT/" , help='GT directory') 
+parser.add_argument('-SRDir', type=str, default="/path/to/test/" , help='SR directory') 
 parser.add_argument('-upscale', type=int, default=4 , help='upscale factor') 
 parser.add_argument('-input_channel', type=int, default=3 , help='input image channel') 
 parser.add_argument('-input_frms', type=int, default=5, help='consecutive input frames')
